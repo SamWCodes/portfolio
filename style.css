@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex; /* sets container to be a flexbox element */
+    justify-content: center; /* aligns items horizontally */
+    float: right; /* aligns items in the header to the right */
+    font-size: 1.5rem;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none; /* removes the dots from the ul */
+}
+
+li {
+  margin: 0 10px;
+  
+}

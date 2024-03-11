@@ -3,11 +3,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 .header {
     display: flex; /* sets container to be a flexbox element */
-    justify-content: center; /* aligns items horizontally */
-    float: right; /* aligns items in the header to the right */
+    justify-content: right; /* aligns items horizontally */
     font-size: 1.5rem;
+    background-color: #cb6015;
+    width: 100%; /* extends the width of the header container to the full length */
 }
 
 .main-nav {
